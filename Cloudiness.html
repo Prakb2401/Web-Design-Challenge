@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="C:/Users/prakb/OneDrive/Desktop/Web-Design-Challenge/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather API Analysis</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="C:/Users/prakb/OneDrive/Desktop/Web-Design-Challenge/style.css">
+    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -44,30 +45,20 @@
         </div>
     </div>
   </nav>
-      <div class="containernew">
+      <div class="container">
         <style>
-          .containernew{
+          .container{
         margin-top:100px; 
     }
         </style>
         <div class="row">
             <div class="col-md-12">
-                <h3 class="text center"> Scatterplot Comparison</h3>
+                <h3> Latitutde Vs Cloudiness</h3>
+                <img alt="Cloudiness" src="./Resources/Latitude_VS_Cloud.png">
+                <p>
+                    For this visualization I created a scatterplot to compare latitude as it relates to cloudiness percentage. As you can see from this plot there is not a strong correlation between the two.
+                </p>
             </div>
-        
-        <div class="col-md-6">
-            <img alt="cloudiness" src="C:/Users/prakb/OneDrive/Desktop/Web-Design-Challenge/Resources/Latitude_VS_Cloud.png" />
-        </div>
-        <div class="col-md-6">
-            <img alt="temp" src="C:/Users/prakb/OneDrive/Desktop/Web-Design-Challenge/Resources/Latitude_VS_Temp.png" />
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-6">
-            <img alt="humid" src="C:/Users/prakb/OneDrive/Desktop/Web-Design-Challenge/Resources/Latitude_VS_Hum.png" />
-        </div>
-        <div class="col-md-6">
-            <img alt="wind" src="C:/Users/prakb/OneDrive/Desktop/Web-Design-Challenge/Resources/Latitude_VS_Wind.png" />
         </div>
       </div>
 </body>

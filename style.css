@@ -1,0 +1,28 @@
+head{background-color: aquamarine;}
+.container{background-color: whitesmoke;}
+body {background-color: aquamarine;}
+.navbar{background-color: aquamarine;}
+.container-fluid{background-color: whitesmoke;}
+.container {
+    border: 12px solid #B22222;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    }
+    
+
+
+    .navbar .dropdown-menu {
+        position: absolute;
+        left: auto;
+        right: 0;
+      }
+
+      #image{box-shadow: 10px;
+        border-radius: 10px;
+    border-color: teal;
+    word-wrap: break-word;
+    text-size-adjust: 40px;
+    margin-top: 20px;}
+
+    

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather API Analysis</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -24,16 +24,54 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item" href="Visualizations\WindSpeed.html">Latitude Vs Wind Speed</a>
-                      <a class="dropdown-item" href="visualizations\Temperature.html">Latitude Vs Temperature</a>
+                      <a class="dropdown-item" href="Visualizations\Temperature.html">Latitude Vs Temperature</a>
                       <a class="dropdown-item" href="Visualizations\Humidity.html">Latitude Vs Humidity</a>
-                      <a class="dropdown-item" href="visualizations\Cloudiness.html">Latitude Vs Cloudiness</a>
+                      <a class="dropdown-item" href="Visualizations\Cloudiness.html">Latitude Vs Cloudiness</a>
                     </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Visualizations\Comparisons.html">Comparisons</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Resources\cities.html">Dataframe</a>
                 </li>
             </ul>
 
         </div>
     </div>
   </nav>
+<h1 class="text-center"> Weather API Data Analysis</h1>
+  <div class="container">
+    <div class="row">
+            <div class="col-md-12">
+              <div class="titles">Summary: Latitude vs X</div>
+            </div>
+    </div>
+      <div class = "row">
+        <div class="col-md-7">
+          <img src="C:/Users/prakb/OneDrive/Desktop/Web-Design-Challenge/Resources/Latitude_VS_Temp.png" class="float-left mr-2 mb-1" style="width:300px;height:200px" id="image">
+          <p class="paragrpah">In this challenge I used API from open weatherAPI to get, request information, and create visualizations with it. I used the OpenWeatherAPI to get weather information of over 500 cities. After that I created a dataframe with that and outputted a csv file. I then created 4 scatter plots to show correlations based on latitude and other weather conditions such as temperature, wind speed, humidity, and cloudiness. </p>
+        </div>
+      </div>
+      <div class="col-md-6"></div>
+          <h3>Visualizations</h3>
+      
+        <a href="Visualizations\WindSpeed.html">
+        <img src="C:/Users/prakb/OneDrive/Desktop/Web-Design-Challenge/Resources/Latitude_VS_Wind.png">
+        </a>
+        <a href="Visualizations\Temperature.html">
+        <img src="C:/Users/prakb/OneDrive/Desktop/Web-Design-Challenge/Resources/Latitude_VS_Temp.png">
+        </a>
+        <a href="Visualizations\Humidity.html">
+        <img src="C:/Users/prakb/OneDrive/Desktop/Web-Design-Challenge/Resources/Latitude_VS_Hum.png">
+        </a>
+        <a href="Visualizations\Cloudiness.html">
+        <img src="C:/Users/prakb/OneDrive/Desktop/Web-Design-Challenge/Resources/Latitude_VS_Cloud.png">
+        </a>
+      </div>
+
+      </div>
+  </div>
 </body>
 
 </body>

@@ -1,5 +1,6 @@
 head{background-color: aquamarine;}
 .container{background-color: whitesmoke;}
+.containernew{background-color: whitesmoke;}
 body {background-color: aquamarine;}
 .navbar{background-color: aquamarine;}
 .container-fluid{background-color: whitesmoke;}
@@ -25,4 +26,24 @@ body {background-color: aquamarine;}
     text-size-adjust: 40px;
     margin-top: 20px;}
 
+h1{color: navy;
+font-weight: bolder;}
+h3{color: navy;
+font-weight: bolder;}
+
+.nav-item.dropdown {
+  margin: 0;
+}
+
+p{
+  font-family: Arial;
+  font-size: large;
+  padding:10px;
+}
     
+.containernew {
+  border: 12px solid #B22222;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  }
